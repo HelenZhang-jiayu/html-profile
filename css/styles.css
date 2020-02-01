@@ -2,7 +2,14 @@
 body {
     margin: 0;
 }
-
+*{
+    color:lightcoral;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+a{
+    color:pink;
+}
 /* Globals */
 h1, h2, h3, h4, p, ol, ul, li, a, figure, p:last-child, ul:last-child, ol:last-child {
     margin: 0;
@@ -19,8 +26,8 @@ p, ul, ol {
 img {width: 100%;}
 header, section, aside, footer {
     padding: 8px;
-    border: 1px solid #969696;
-    border-radius: 2px;
+    border: 1px solid #fddb6b;
+    border-radius: 5px;
     /* background: #f0f0f0; */
 }
 header {
@@ -28,12 +35,12 @@ header {
     grid-template-columns: 1fr 100px;
     grid-gap: 10px;
 }
-header, footer, .section-wrapper {background: #f0f0f0;}
+header, footer, .section-wrapper {background: #daeffc;}
 .medium {font-size: 125%;}
 .large {font-size: 400%;}
 figure {height: 100px;}
 blockquote {
-    border-left: 5px solid #dddddd;
+    border-left: 5px solid #cfebf5;
     padding-left: 10px;
 }
 .credit {font-style: italic;}
@@ -66,10 +73,10 @@ blockquote {
     justify-content: center;
     align-items: center;
 }
-section {background: #fff;}
+section {background: rgb(216, 234, 241);}
 
 #energy-box {
-    background: #fff;
+    background: rgb(248, 245, 245);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +92,7 @@ section {background: #fff;}
     width: 80px;
     height: 80px;
     margin-top: -20px;
-    background: rgb(115, 195, 241);
+    background: rgb(255, 0, 0);
     border-radius: 100%;
     filter: blur(20px);
 }
